@@ -15,6 +15,12 @@
 		C199C2911E56F5E1008F3A43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C199C28F1E56F5E1008F3A43 /* LaunchScreen.storyboard */; };
 		C199C29C1E56F5E2008F3A43 /* PDTSimpleCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C199C29B1E56F5E2008F3A43 /* PDTSimpleCalendarTests.m */; };
 		C199C2A71E56F5E2008F3A43 /* PDTSimpleCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C199C2A61E56F5E2008F3A43 /* PDTSimpleCalendarUITests.m */; };
+		C199C2BF1E56F602008F3A43 /* PDTSimpleCalendarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C199C2B61E56F602008F3A43 /* PDTSimpleCalendarViewCell.m */; };
+		C199C2C01E56F602008F3A43 /* PDTSimpleCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C199C2B81E56F602008F3A43 /* PDTSimpleCalendarViewController.m */; };
+		C199C2C11E56F602008F3A43 /* PDTSimpleCalendarViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C199C2BA1E56F602008F3A43 /* PDTSimpleCalendarViewFlowLayout.m */; };
+		C199C2C21E56F602008F3A43 /* PDTSimpleCalendarViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C199C2BC1E56F602008F3A43 /* PDTSimpleCalendarViewHeader.m */; };
+		C199C2C31E56F602008F3A43 /* PDTSimpleCalendarViewWeekdayHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C199C2BE1E56F602008F3A43 /* PDTSimpleCalendarViewWeekdayHeader.m */; };
+		DF767AAD1E5AC87800DB26E9 /* CalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF767AAC1E5AC87800DB26E9 /* CalendarHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,21 @@
 		C199C2A21E56F5E2008F3A43 /* PDTSimpleCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDTSimpleCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C199C2A61E56F5E2008F3A43 /* PDTSimpleCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDTSimpleCalendarUITests.m; sourceTree = "<group>"; };
 		C199C2A81E56F5E2008F3A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C199C2B41E56F602008F3A43 /* PDTSimpleCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDTSimpleCalendar.h; sourceTree = "<group>"; };
+		C199C2B51E56F602008F3A43 /* PDTSimpleCalendarViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDTSimpleCalendarViewCell.h; sourceTree = "<group>"; };
+		C199C2B61E56F602008F3A43 /* PDTSimpleCalendarViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDTSimpleCalendarViewCell.m; sourceTree = "<group>"; };
+		C199C2B71E56F602008F3A43 /* PDTSimpleCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDTSimpleCalendarViewController.h; sourceTree = "<group>"; };
+		C199C2B81E56F602008F3A43 /* PDTSimpleCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDTSimpleCalendarViewController.m; sourceTree = "<group>"; };
+		C199C2B91E56F602008F3A43 /* PDTSimpleCalendarViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDTSimpleCalendarViewFlowLayout.h; sourceTree = "<group>"; };
+		C199C2BA1E56F602008F3A43 /* PDTSimpleCalendarViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDTSimpleCalendarViewFlowLayout.m; sourceTree = "<group>"; };
+		C199C2BB1E56F602008F3A43 /* PDTSimpleCalendarViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDTSimpleCalendarViewHeader.h; sourceTree = "<group>"; };
+		C199C2BC1E56F602008F3A43 /* PDTSimpleCalendarViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDTSimpleCalendarViewHeader.m; sourceTree = "<group>"; };
+		C199C2BD1E56F602008F3A43 /* PDTSimpleCalendarViewWeekdayHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDTSimpleCalendarViewWeekdayHeader.h; sourceTree = "<group>"; };
+		C199C2BE1E56F602008F3A43 /* PDTSimpleCalendarViewWeekdayHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDTSimpleCalendarViewWeekdayHeader.m; sourceTree = "<group>"; };
+		DF767AA91E5ABF8D00DB26E9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		DF767AAA1E5ABF8E00DB26E9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		DF767AAB1E5AC87800DB26E9 /* CalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarHeaderView.h; sourceTree = "<group>"; };
+		DF767AAC1E5AC87800DB26E9 /* CalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +124,19 @@
 			children = (
 				C199C2841E56F5E1008F3A43 /* AppDelegate.h */,
 				C199C2851E56F5E1008F3A43 /* AppDelegate.m */,
+				DF767AAB1E5AC87800DB26E9 /* CalendarHeaderView.h */,
+				DF767AAC1E5AC87800DB26E9 /* CalendarHeaderView.m */,
+				C199C2B41E56F602008F3A43 /* PDTSimpleCalendar.h */,
+				C199C2B51E56F602008F3A43 /* PDTSimpleCalendarViewCell.h */,
+				C199C2B61E56F602008F3A43 /* PDTSimpleCalendarViewCell.m */,
+				C199C2B71E56F602008F3A43 /* PDTSimpleCalendarViewController.h */,
+				C199C2B81E56F602008F3A43 /* PDTSimpleCalendarViewController.m */,
+				C199C2B91E56F602008F3A43 /* PDTSimpleCalendarViewFlowLayout.h */,
+				C199C2BA1E56F602008F3A43 /* PDTSimpleCalendarViewFlowLayout.m */,
+				C199C2BB1E56F602008F3A43 /* PDTSimpleCalendarViewHeader.h */,
+				C199C2BC1E56F602008F3A43 /* PDTSimpleCalendarViewHeader.m */,
+				C199C2BD1E56F602008F3A43 /* PDTSimpleCalendarViewWeekdayHeader.h */,
+				C199C2BE1E56F602008F3A43 /* PDTSimpleCalendarViewWeekdayHeader.m */,
 				C199C2871E56F5E1008F3A43 /* ViewController.h */,
 				C199C2881E56F5E1008F3A43 /* ViewController.m */,
 				C199C28A1E56F5E1008F3A43 /* Main.storyboard */,
@@ -207,6 +241,7 @@
 				TargetAttributes = {
 					C199C27D1E56F5E1008F3A43 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J5GX7EWR87;
 						ProvisioningStyle = Automatic;
 					};
 					C199C2961E56F5E2008F3A43 = {
@@ -273,9 +308,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C199C2C01E56F602008F3A43 /* PDTSimpleCalendarViewController.m in Sources */,
+				C199C2C31E56F602008F3A43 /* PDTSimpleCalendarViewWeekdayHeader.m in Sources */,
+				DF767AAD1E5AC87800DB26E9 /* CalendarHeaderView.m in Sources */,
+				C199C2C11E56F602008F3A43 /* PDTSimpleCalendarViewFlowLayout.m in Sources */,
 				C199C2891E56F5E1008F3A43 /* ViewController.m in Sources */,
+				C199C2BF1E56F602008F3A43 /* PDTSimpleCalendarViewCell.m in Sources */,
 				C199C2861E56F5E1008F3A43 /* AppDelegate.m in Sources */,
 				C199C2831E56F5E1008F3A43 /* main.m in Sources */,
+				C199C2C21E56F602008F3A43 /* PDTSimpleCalendarViewHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +356,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C199C28B1E56F5E1008F3A43 /* Base */,
+				DF767AA91E5ABF8D00DB26E9 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -323,6 +365,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C199C2901E56F5E1008F3A43 /* Base */,
+				DF767AAA1E5ABF8E00DB26E9 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -334,6 +377,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -381,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -422,7 +467,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J5GX7EWR87;
 				INFOPLIST_FILE = PDTSimpleCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lwc.PDTSimpleCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +480,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J5GX7EWR87;
 				INFOPLIST_FILE = PDTSimpleCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lwc.PDTSimpleCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +554,7 @@
 				C199C2AD1E56F5E2008F3A43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C199C2AE1E56F5E2008F3A43 /* Build configuration list for PBXNativeTarget "PDTSimpleCalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +563,7 @@
 				C199C2B01E56F5E2008F3A43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C199C2B11E56F5E2008F3A43 /* Build configuration list for PBXNativeTarget "PDTSimpleCalendarUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +572,7 @@
 				C199C2B31E56F5E2008F3A43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
