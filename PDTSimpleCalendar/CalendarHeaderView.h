@@ -2,8 +2,8 @@
 //  CalendarHeaderView.h
 //  PDTSimpleCalendar
 //
-//  Created by dqong on 2017/2/20.
-//  Copyright © 2017年 LWC. All rights reserved.
+//  Created by ZY on 2017/2/20.
+//  Copyright © 2017年 ZY. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -2,8 +2,8 @@
 //  PDTSimpleCalendar.h
 //  PDTSimpleCalendar
 //
-//  Created by Jerome Miglino on 10/17/13.
-//  Copyright (c) 2013 Producteev. All rights reserved.
+//  Created by ZY on 2017/2/20.
+//  Copyright © 2017年 ZY. All rights reserved.
 //
 
 #import <PDTSimpleCalendar/PDTSimpleCalendarViewController.h>

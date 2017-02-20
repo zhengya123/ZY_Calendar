@@ -2,8 +2,8 @@
 //  PDTSimpleCalendarViewFlowLayout.m
 //  PDTSimpleCalendar
 //
-//  Created by Jerome Miglino on 10/7/13.
-//  Copyright (c) 2013 Producteev. All rights reserved.
+//  Created by ZY on 2017/2/20.
+//  Copyright © 2017年 ZY. All rights reserved.
 //
 
 #import "PDTSimpleCalendarViewFlowLayout.h"

@@ -2,8 +2,8 @@
 //  PDTSimpleCalendarViewWeekdayHeader.h
 //  MorningCall
 //
-//  Created by Yuwen Yan on 3/8/15.
-//  Copyright (c) 2015 MorningCall. All rights reserved.
+//  Created by ZY on 2017/2/20.
+//  Copyright © 2017年 ZY. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
